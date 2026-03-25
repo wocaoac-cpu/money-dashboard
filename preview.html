@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💰 监控面板预览</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #0f172a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(30, 41, 59, 0.8);
+            padding: 30px;
+            border-radius: 15px;
+            border: 2px solid #3b82f6;
+        }
+        h1 {
+            color: #3b82f6;
+            margin-bottom: 20px;
+        }
+        .preview-image {
+            width: 100%;
+            max-width: 600px;
+            border: 3px solid #10b981;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .features {
+            text-align: left;
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        .feature-item {
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 3px solid #8b5cf6;
+        }
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat {
+            background: rgba(59, 130, 246, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #3b82f6;
+        }
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #10b981;
+        }
+        .deploy-steps {
+            text-align: left;
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(16, 185, 129, 0.1);
+            border-radius: 10px;
+            border: 1px solid #10b981;
+        }
+        .step {
+            margin: 10px 0;
+            padding: 8px;
+            display: flex;
+            align-items: center;
+        }
+        .step-number {
+            background: #3b82f6;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .button {
+            display: inline-block;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1rem;
+        }
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
+        }
+        .code {
+            background: #1e293b;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            margin: 10px 0;
+            border: 1px solid #334155;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💰 卧槽的赚钱系统监控面板 - 预览</h1>
+        
+        <div class="features">
+            <div class="feature-item">✅ 实时监控6个赚钱渠道</div>
+            <div class="feature-item">✅ Token自养循环数据可视化</div>
+            <div class="feature-item">✅ 响应式设计，手机电脑都能看</div>
+            <div class="feature-item">✅ 老板专属设计，暗色主题</div>
+            <div class="feature-item">✅ 自动刷新，数据实时更新</div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat">
+                <div>总日收入</div>
+                <div class="stat-value">$4,275.00</div>
+            </div>
+            <div class="stat">
+                <div>净利润</div>
+                <div class="stat-value">$4,062.50</div>
+            </div>
+            <div class="stat">
+                <div>ROI</div>
+                <div class="stat-value">1911.8%</div>
+            </div>
+            <div class="stat">
+                <div>运行系统</div>
+                <div class="stat-value">7/7</div>
+            </div>
+        </div>
+        
+        <div class="deploy-steps">
+            <h3>🚀 一键部署到GitHub Pages</h3>
+            <div class="step">
+                <div class="step-number">1</div>
+                <div>创建GitHub仓库: money-dashboard</div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div>运行部署脚本</div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div>访问你的专属面板</div>
+            </div>
+            
+            <div class="code">
+                # 运行部署脚本<br>
+                cd money-dashboard<br>
+                ./deploy.sh
+            </div>
+        </div>
+        
+        <div>
+            <button class="button" onclick="window.open('index.html', '_blank')">
+                🚀 查看完整面板
+            </button>
+            
+            <button class="button" onclick="runDeployScript()" style="background: linear-gradient(90deg, #10b981, #3b82f6);">
+                ⚡ 一键部署
+            </button>
+        </div>
+        
+        <div style="margin-top: 30px; color: #94a3b8; font-size: 0.9rem;">
+            <p>👑 老板专属 · @HAHAHAHAHAJL · 目标: 电话卡 → 机器人 → 喝酒！</p>
+            <p>🕒 生成时间: 2026-03-25 23:10</p>
+        </div>
+    </div>
+    
+    <script>
+        function runDeployScript() {
+            alert("部署脚本已准备就绪！\n\n请打开终端，运行：\ncd /Users/jt/.openclaw/workspace/money-dashboard\n./deploy.sh");
+        }
+        
+        // 自动打开完整面板预览
+        setTimeout(function() {
+            if(confirm("是否要查看完整的监控面板？")) {
+                window.open('index.html', '_blank');
+            }
+        }, 2000);
+    </script>
+</body>
+</html>
