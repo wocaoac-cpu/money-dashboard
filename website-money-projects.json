@@ -1,14 +1,15 @@
 {
-  "last_updated": "2026-03-26T14:21:00+08:00",
+  "last_updated": "2026-03-26T14:45:13.520943",
   "money_projects": [
     {
       "name": "OKX永续合约交易",
-      "type": "OKX合约",
-      "description": "OKX永续合约量化交易策略，EMA9/21金叉死叉+RSI过滤+情绪分析",
+      "type": "OKX合约交易",
+      "description": "OKX永续合约量化交易策略",
       "estimated_daily": 800,
       "money_action": "立即开启OKX合约交易",
-      "added_to_website": "2026-03-26T14:21:00+08:00",
-      "status": "active",
+      "detected_at": "2026-03-26T14:03:24.629246",
+      "added_to_website": "2026-03-26T14:45:13.520974",
+      "status": "pending",
       "website_display": {
         "icon": "fas fa-chart-line",
         "color": "#3b82f6",
@@ -17,12 +18,13 @@
     },
     {
       "name": "SOL链土狗狙击",
-      "type": "SOL土狗",
-      "description": "Solana链土狗币早期检测和狙击，合约安全分析+自动交易+流动性监控",
+      "type": "SOL链土狗",
+      "description": "Solana链土狗币早期检测和狙击",
       "estimated_daily": 500,
       "money_action": "立即开启SOL链土狗扫描",
-      "added_to_website": "2026-03-26T14:21:00+08:00",
-      "status": "active",
+      "detected_at": "2026-03-26T14:03:25.693282",
+      "added_to_website": "2026-03-26T14:45:13.520978",
+      "status": "pending",
       "website_display": {
         "icon": "fas fa-bolt",
         "color": "#8b5cf6",
@@ -31,42 +33,44 @@
     },
     {
       "name": "BSC链土狗识别",
-      "type": "BSC土狗",
-      "description": "BSC链土狗币风险识别和交易，PancakeSwap监控+自动狙击+合约漏洞扫描",
+      "type": "BSC链土狗",
+      "description": "BSC链土狗币风险识别和交易",
       "estimated_daily": 400,
       "money_action": "立即开启BSC链土狗扫描",
-      "added_to_website": "2026-03-26T14:21:00+08:00",
-      "status": "active",
+      "detected_at": "2026-03-26T14:03:26.769306",
+      "added_to_website": "2026-03-26T14:45:13.520981",
+      "status": "pending",
       "website_display": {
-        "icon": "fas fa-fire",
-        "color": "#ef4444",
+        "icon": "fas fa-bolt",
+        "color": "#8b5cf6",
         "priority": 2
       }
     },
     {
       "name": "多交易所套利",
       "type": "量化交易",
-      "description": "多交易所价格差异套利交易，均值回归+动量策略+网格交易",
+      "description": "多交易所价格差异套利交易",
       "estimated_daily": 600,
       "money_action": "立即部署量化交易策略",
-      "added_to_website": "2026-03-26T14:21:00+08:00",
-      "status": "active",
+      "detected_at": "2026-03-26T14:03:27.770552",
+      "added_to_website": "2026-03-26T14:45:13.520983",
+      "status": "pending",
       "website_display": {
-        "icon": "fas fa-robot",
-        "color": "#10b981",
-        "priority": 1
+        "icon": "fas fa-bolt",
+        "color": "#8b5cf6",
+        "priority": 2
       }
     }
   ],
   "total_daily_income": 2300,
   "active_projects": 4,
-  "website_version": "2.0.0",
+  "website_version": "1.1.0",
   "system_status": {
-    "last_sync": "2026-03-26T14:21:00+08:00",
-    "running_systems": 5,
+    "last_sync": "2026-03-26 14:45:13",
+    "running_systems": 4,
     "total_systems": 7,
-    "running_rate": "71.4%",
-    "recent_income": 136,
-    "daily_income": 3264
+    "running_rate": "57%",
+    "recent_income": 124,
+    "daily_income": 2976
   }
 }
