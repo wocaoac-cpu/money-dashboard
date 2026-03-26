@@ -1,0 +1,15 @@
+[build]
+  publish = "."
+  command = "echo 'Building static site...'"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[dev]
+  port = 8080
+  publish = "."

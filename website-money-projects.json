@@ -1,0 +1,72 @@
+{
+  "last_updated": "2026-03-26T14:21:00+08:00",
+  "money_projects": [
+    {
+      "name": "OKX永续合约交易",
+      "type": "OKX合约",
+      "description": "OKX永续合约量化交易策略，EMA9/21金叉死叉+RSI过滤+情绪分析",
+      "estimated_daily": 800,
+      "money_action": "立即开启OKX合约交易",
+      "added_to_website": "2026-03-26T14:21:00+08:00",
+      "status": "active",
+      "website_display": {
+        "icon": "fas fa-chart-line",
+        "color": "#3b82f6",
+        "priority": 1
+      }
+    },
+    {
+      "name": "SOL链土狗狙击",
+      "type": "SOL土狗",
+      "description": "Solana链土狗币早期检测和狙击，合约安全分析+自动交易+流动性监控",
+      "estimated_daily": 500,
+      "money_action": "立即开启SOL链土狗扫描",
+      "added_to_website": "2026-03-26T14:21:00+08:00",
+      "status": "active",
+      "website_display": {
+        "icon": "fas fa-bolt",
+        "color": "#8b5cf6",
+        "priority": 2
+      }
+    },
+    {
+      "name": "BSC链土狗识别",
+      "type": "BSC土狗",
+      "description": "BSC链土狗币风险识别和交易，PancakeSwap监控+自动狙击+合约漏洞扫描",
+      "estimated_daily": 400,
+      "money_action": "立即开启BSC链土狗扫描",
+      "added_to_website": "2026-03-26T14:21:00+08:00",
+      "status": "active",
+      "website_display": {
+        "icon": "fas fa-fire",
+        "color": "#ef4444",
+        "priority": 2
+      }
+    },
+    {
+      "name": "多交易所套利",
+      "type": "量化交易",
+      "description": "多交易所价格差异套利交易，均值回归+动量策略+网格交易",
+      "estimated_daily": 600,
+      "money_action": "立即部署量化交易策略",
+      "added_to_website": "2026-03-26T14:21:00+08:00",
+      "status": "active",
+      "website_display": {
+        "icon": "fas fa-robot",
+        "color": "#10b981",
+        "priority": 1
+      }
+    }
+  ],
+  "total_daily_income": 2300,
+  "active_projects": 4,
+  "website_version": "2.0.0",
+  "system_status": {
+    "last_sync": "2026-03-26T14:21:00+08:00",
+    "running_systems": 5,
+    "total_systems": 7,
+    "running_rate": "71.4%",
+    "recent_income": 136,
+    "daily_income": 3264
+  }
+}
