@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T15:16:25.083938",
+  "last_updated": "2026-03-26T16:16:16.715082",
   "money_projects": [
     {
       "name": "OKX永续合约交易",
@@ -9,7 +9,7 @@
       "money_action": "立即开启OKX合约交易",
       "detected_at": "2026-03-26T14:03:24.629246",
       "added_to_website": "2026-03-26T14:45:13.520974",
-      "status": "pending",
+      "status": "active",
       "website_display": {
         "icon": "fas fa-chart-line",
         "color": "#3b82f6",
@@ -24,7 +24,7 @@
       "money_action": "立即开启SOL链土狗扫描",
       "detected_at": "2026-03-26T14:03:25.693282",
       "added_to_website": "2026-03-26T14:45:13.520978",
-      "status": "pending",
+      "status": "active",
       "website_display": {
         "icon": "fas fa-bolt",
         "color": "#8b5cf6",
@@ -39,7 +39,7 @@
       "money_action": "立即开启BSC链土狗扫描",
       "detected_at": "2026-03-26T14:03:26.769306",
       "added_to_website": "2026-03-26T14:45:13.520981",
-      "status": "pending",
+      "status": "active",
       "website_display": {
         "icon": "fas fa-bolt",
         "color": "#8b5cf6",
@@ -54,7 +54,7 @@
       "money_action": "立即部署量化交易策略",
       "detected_at": "2026-03-26T14:03:27.770552",
       "added_to_website": "2026-03-26T14:45:13.520983",
-      "status": "pending",
+      "status": "active",
       "website_display": {
         "icon": "fas fa-bolt",
         "color": "#8b5cf6",
@@ -62,19 +62,15 @@
       }
     }
   ],
-  "total_daily_income": 2300,
+  "total_daily_income": 2424,
   "active_projects": 4,
   "website_version": "1.1.0",
   "system_status": {
-    "last_sync": "2026-03-26T15:08:11+08:00",
+    "last_sync": "2026-03-26T16:10:28+08:00",
     "running_systems": 2,
     "total_systems": 7,
     "running_rate": "28.5%",
     "recent_income": 101,
-    "daily_income": 2424,
-    "token_cycle_profit": 4062.5,
-    "token_cycle_roi": "1911.8%",
-    "captcha_platforms": 2,
-    "captcha_balance": 108351.01
+    "daily_income": 2424
   }
 }
