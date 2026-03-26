@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T15:08:11+08:00",
+  "last_updated": "2026-03-26T15:16:25.083938",
   "money_projects": [
     {
       "name": "OKX永续合约交易",
@@ -66,22 +66,15 @@
   "active_projects": 4,
   "website_version": "1.1.0",
   "system_status": {
-    "last_sync": "2026-03-26 15:08:11",
+    "last_sync": "2026-03-26T15:08:11+08:00",
     "running_systems": 2,
     "total_systems": 7,
     "running_rate": "28.5%",
     "recent_income": 101,
     "daily_income": 2424,
-    "monthly_income": 72720,
-    "token_cycle": {
-      "daily_profit": 4062.50,
-      "roi": "1911.8%",
-      "status": "healthy"
-    },
-    "captcha_platforms": {
-      "available": 2,
-      "total": 4,
-      "balance": 108351.01
-    }
+    "token_cycle_profit": 4062.5,
+    "token_cycle_roi": "1911.8%",
+    "captcha_platforms": 2,
+    "captcha_balance": 108351.01
   }
 }
